@@ -26,6 +26,10 @@ public class Stranger {
         return !(Objects.isNull(type) && Objects.isNull(speech));
     }
 
+    private boolean isAvatar(){
+        return false;
+    }
+
     @Override
     public String toString() {
         return "Stranger{" +
